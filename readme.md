@@ -14,7 +14,7 @@ Used Cron Jobs [django_cron](https://django-cron.readthedocs.io/en/latest/introd
 - Setup Django on your system, refer [this](https://www.python.org/downloads/)
 - Go the project through the terminal and install all dependencies by using typing `pip install -r requirements.txt` in the terminal
 - Inside the `setting.py` file, fill the variable `GOOGLE_API_KEYS` with all the API Keys available,the list should be filled as `['API_KEY_1','API_KEY_2',...]`
-- create an env file inside youtueb_fetch_api folder and add SECRET_KEY and GOOGLE_API_KEYS. 
+- Create an env file inside youtueb_fetch_api folder and add SECRET_KEY and GOOGLE_API_KEYS. 
 - Use env to get SECRET_KEY and GOOGLE_API_KEYS.
 - For getting an API refer [this](https://developers.google.com/youtube/v3/getting-started)
 - Setup crontab to run Job, refer [this](https://django-cron.readthedocs.io/en/latest/installation.html)
