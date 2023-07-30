@@ -13,8 +13,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
-SECRET_KEY = env("SECRET_KEY", default="unsafe-secret-key")
-
+SECRET_KEY = 'w==ivz3++6_94s&rftfmnqua#2r7bm_eqjeek7=tsa9&h2wflm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -121,7 +120,7 @@ USE_L10N = True
 
 USE_TZ = True
 
-GOOGLE_API_KEYS = [env('GOOGLE_API_KEY')]
+GOOGLE_API_KEYS = ['AIzaSyAG9UVgTX2vKKaasgdHNCWjACaZWvYf_Tg']
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
